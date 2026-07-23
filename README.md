@@ -92,10 +92,10 @@ Inspiration was taken directly from the minimalist wireframe concept, translatin
 
 ## Project Structure
 
+```text
 Knot/
-│
 ├── screenshots/
-|   ├── auth-desktop.png
+│   ├── auth-desktop.png
 │   ├── home-desktop.png
 │   ├── home-mobile.png
 │   ├── profile-desktop.png
@@ -128,6 +128,7 @@ Knot/
 ├── server.ts
 ├── tsconfig.json
 └── vite.config.ts
+```
 
 ---
 
