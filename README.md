@@ -93,40 +93,40 @@ Inspiration was taken directly from the minimalist wireframe concept, translatin
 ## Project Structure
 
 Knot/
-|
-|── screenshots/
-|   |── auth-desktop.png
-|   |── home-desktop.png
-|   |── home-mobile.png
-|   |── login-desktop.png
-|   └── profile-mobile.png
-|
-|── server/
-|   |── database/
-|   |   └── db.ts
-|   |── middleware/
-|   |   └── auth.ts
-|   └── routes/
-|       └── api.ts
-|
-|── src/
-|   |── assests/
-|   |   └── logo.svg
-|   |── components/
-|   |── lib/
-|   |── styles/
-|   |── types/
-|   |── App.tsx
-|   |── main.tsx
-|   └── vite-env.d.ts
-|
-|── .gitignore
-|── index.html
-|── package-lock.json
-|── package.json
-|── README.md
-|── sever.ts
-|── tsconfig.json
+│
+├── screenshots/
+|   ├── auth-desktop.png
+│   ├── home-desktop.png
+│   ├── home-mobile.png
+│   ├── profile-desktop.png
+│   └── profile-mobile.png
+│
+├── server/
+│   ├── database/
+│   │   └── db.ts
+│   ├── middleware/
+│   │   └── auth.ts
+│   └── routes/
+│       └── api.ts
+│
+├── src/
+│   ├── assets/
+│   │   └── logo.svg
+│   ├── components/
+│   ├── lib/
+│   ├── styles/
+│   ├── types/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── server.ts
+├── tsconfig.json
 └── vite.config.ts
 
 ---
